@@ -1,0 +1,4 @@
+Development notes
+
+11.18.17:
+	python version: 2.7.14
