@@ -1,0 +1,39 @@
+Proposal definition
+	promblem: Privacy, how intrusive should facial recognition be allowed to be into everyday life.  What criteria are you willing to forfiet your civil liberties.  Are there applicaitons for this technology that are acceptable? For instance should the govt be required to obtain permission and specific legistlation to implement facial recognition at all terminals that recieve a a transit carrying humans from another county?  Would screening for terroritst and known criminals impact your everyday life?  Are you willing to surrender some of your civil liberties with a good faith effort from the government in the name of safety and protection?
+	
+	Given the instance of facial recognition concerning marketing, retail, security and your privacy?  How intrusive should ANY retail entity be allowed to implement facial recognition to collect a datadase of the general public?  Are you alright with surrendering your privacy and being targeting walking into an establishment amongst the general public.  The databases being created and populated could more than likely be sold, hacked or prostituted for means that WOULD impact you in a negitive way.  Look at the security issues we have encured today with simple email accounts and credit card database from major entities that have failed their customers.
+	
+	*************************************************************************************************
+Proposal definition
+	
+Fundamental Issues in Face Recognition
+Robust face recognition requires the ability to recognize identity despite many variations in appearance that the face can have in a scene. The face is a 3D object which is illuminated from a variety of light sources and surrounded by arbitrary background data (including other faces). Therefore, the appearance a face has when projected onto a 2D image can vary tremendously. If we wish to develop a system capable of performing non-contrived recognition, we need to find and recognize faces despite these variations. In fact, 3D pose, illumination and foreground-background segmentation have been pertinent issues in the field of computer vision as a whole.
+
+Additionally, our detection and recognition scheme must also be capable of tolerating variations in the faces themselves. The human face is not a unique rigid object. There are billions of different faces and each of them can assume a variety of deformations. Inter-personal variations can be due to race, identity, or genetics while intra-personal variations can be due to deformations, expression, aging, facial hair, cosmetics and facial paraphernalia.
+
+Furthermore, the output of the detection and recognition system has to be accurate. A recognition system has to associate an identity or name for each face it comes across by matching it to a large database of individuals. Simultaneously, the system must be robust to typical image-acquisition problems such as noise, video-camera distortion and image resolution.
+
+Thus, we are dealing with a multi-dimensional detection and recognition problem. One final constraint is the need to maintain the usability of the system on contemporary computational devices ($\approx$100 MIPS). The processing involved should be efficient with respect to run-time and storage space.
+
+What are the most important problems in face recognition?
+    Variations in skin color under different lighting conditions
+    Presence of eyeglasses, make up, pimples
+    Different face angles with respect to the camera
+    Clarity of the face image, distance from the camera
+    Different facial expressions (e.g., varying levels of smile)
+    Hats, caps, or hairstyles that may partially cover the face
+	
+Fundamental Issues in Face Recognition
+	http://www.cs.columbia.edu/~jebara/htmlpapers/UTHESIS/node7.html
+	
+Facial Recognition Technology (FRT) | NIST
+	https://www.nist.gov/speech-testimony/facial-recognition-technology-frt
+	
+NEC promotes its state-of-the-art face-recognition technology：The Asahi Shimbun
+	http://www.asahi.com/ajw/articles/AJ201708160003.html
+	
+Face Recognition System | Face Recognizer | InTechOpen
+	https://www.intechopen.com/books/state_of_the_art_in_face_recognition
+	
+Face detection in Python using a webcam - Real Python
+	https://realpython.com/blog/python/face-detection-in-python-using-a-webcam/
