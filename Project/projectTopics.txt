@@ -1,0 +1,47 @@
+
+
+
+Problem: In this project, we will explore using face recognition in real-world scenarios, and recognize faces in real-time through a web-camera. The identity of the face is expected as the output of the system.
+
+- However, questions have been raised on the effectiveness of face recognition software in cases of railway and airport security?
+
+Proposed solutions:
+(1) Use web-camera to record the videos.  
+(2) Detect the faces in the videos
+(3) Extract facial features from the images (LBP, SIFT, VGG-Face, etc.)
+(4) Use the classifier (SVM, kNN, etc.) to find the identity
+
+**Process chain: face detection -> feature extraction -> face recognition
+
+Requirement:
+(1)a Any state of the art work? 1(b)Is there any good library (Python, MATLAB, Java)? Please do a quick survey and list them.
+
+1(a): State of the art technology: NEC Corp. is focusing on the development and spread of its facial recognition technology.  article 8.16.17 
+NIST: Biometric and Facial Recognition Technology.  article 3/22/17
+
+OpenCV is the most popular library for computer vision
+1(b)- Libraries in 
+	phython: openCv-python library
+	matlab: openCv library
+	java sdk plugins: opencv supports desktop java
+	
+(2) What are the limitations of the current solutions? How would you solve it?
+	- Notwithstanding the tremendous effort to solve the face recognition problem, it is not possible yet to design a face recognition system with a potential close to human performance
+	- Are Face Recognition Systems Accurate? MIT article 7/6/17
+	
+(3) Could you use both tracking and detection results to improve the quality of detected faces?
+	- yes because with tracking a tracking framework is generated and the algorithm builds a history of face candidates. Then a set of possible paths are assigned to the detected faces that represents a possible trajectory.  then matches are calculated for the 2d dimensional simularities.  PDF Tracking and detection
+	
+(4) Can you make an end-to-end system including *user registration* and *intruder’s recognition*?
+
+ 
+
+
+
+
+
+*multiple face recognitions
+	- detection: identifies a face
+	- facial characterization: descerns teh demographic of a face
+	- verificaiton purposes: access phones, laptops
+	

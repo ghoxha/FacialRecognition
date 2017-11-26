@@ -1,4 +1,7 @@
 Development notes
 
-11.18.17:
+11.18.17: Installed packages
+
 	python version: 2.7.14
+	JetBrains PyCharm 20172.4.X64 
+		- Installed/updated JRE 1.8_141
