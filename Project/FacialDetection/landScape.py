@@ -126,6 +126,8 @@ def main():
                 # determine the facial landmarks for the face region, then
                 # convert the facial landmark (x, y)-coordinates to a NumPy array
                 shape = predictor(frame_resized, d)
+
+                #i think this is the numpy converted landmarks
                 shape = shape_to_np(shape)
 
                 # loop over the (x, y)-coordinates for the facial landmarks
